@@ -124,5 +124,3 @@ resources to help you learn more, including:
     http://www.groovy-lang.org/documentation.html
 
 */
-def mbogo = "bar"
-println "$mbogo + mbogo = ${mbogo + "mbogo"}"
