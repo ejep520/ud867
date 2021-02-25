@@ -25,10 +25,28 @@ http://search.maven.org/
 
 */
 
-apply plugin: 'java'
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation fileTree(dir:"libs", include:"*.jar")
+	implementation "commons-io:commons-io:2.8.0"
+}
 
 task printDependencies {
     doLast {
-        configurations.compile.each { println it.name }
+        configurations.implementation.each { println it.name }
     }
+}
+
+configurations {
+	implementation{
+		canBeResolved=true
+		canBeConsumed=true
+	}
 }
