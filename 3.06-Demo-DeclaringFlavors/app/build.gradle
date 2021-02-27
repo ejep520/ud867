@@ -39,9 +39,11 @@ android {
     productFlavors {
         free {
             applicationId "com.example.udacity.declaringflavors.free"
+            dimension "version"
         }
         paid {
             applicationId "com.example.udacity.declaringflavors.paid"
+            dimension "version"
         }
     }
 }
@@ -87,6 +89,6 @@ requires a new Android SDK. We can enforce that like so:
 
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:24.1.1'
+    releaseImplementation fileTree(dir: 'libs', include: ['*.jar'])
+    releaseImplementation 'com.android.support:appcompat-v7:24.1.1'
 }

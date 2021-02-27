@@ -1,0 +1,3 @@
+include ':JavaJoke'
+include ':app'
+rootProject.name = "4.01 Demo Remake"
