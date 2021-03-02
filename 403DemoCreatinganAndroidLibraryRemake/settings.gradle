@@ -1,0 +1,2 @@
+include ':app', ':imageactivity'
+rootProject.name = "4.03 Demo - Creating an Android Library Remake"

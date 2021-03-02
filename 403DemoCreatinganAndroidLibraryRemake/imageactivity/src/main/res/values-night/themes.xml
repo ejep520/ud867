@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.403DemoCreatingAnAndroidLibraryRemake" parent="Theme.AppCompat.Light.DarkActionBar" />
+</resources>

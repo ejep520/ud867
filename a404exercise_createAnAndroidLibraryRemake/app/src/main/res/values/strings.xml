@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">4.04 Exercise - Create an Android Library Remake</string>
+    <string name="button_text">Launch the sub-activity.</string>
+    <string name="fragment_text">I\'m Henry the Fragment, I am!</string>
+</resources>
