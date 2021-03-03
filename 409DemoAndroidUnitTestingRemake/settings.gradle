@@ -1,0 +1,2 @@
+rootProject.name = "409 Demo - Android Unit Testing Remake"
+include ':app'
